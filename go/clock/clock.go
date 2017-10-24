@@ -6,8 +6,10 @@ import (
 
 const testVersion = 4
 
-const hour = 60
-const day = 24 * hour
+const (
+	hour = 60
+	day  = 24 * hour
+)
 
 // Clock is a type identity around minutes.
 type Clock int
